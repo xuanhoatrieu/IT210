@@ -36,7 +36,7 @@
 
     <div id="content">
         <div class="contentheader">
-            <p><h5>1. An overview of HTTP</h5> </p>
+            <p><h5>1. An overview of HTTP <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">[1]</a><a href="https://www.tutorialspoint.com/http/http_overview.htm">[2]</a> </h5> </p>
         </div>
         <p>HTTP stands for Hypertext Transfer Protocol, which is an application-level protocol for distributed, collaborative, hypermedia information systems developed 
             by Tim Berners-Lee and his team since 1990. This protocol is the foundation for data communication on the internet. A typical example of a very basic web 
@@ -44,14 +44,14 @@
         <img src="./img/f1.png" alt="">
         <p>In other words, HTTP is a client-server protocol that allows any data exchange on the web. It starts with a request from the client (receiver), usually from 
             the web browser sent to the server. A complete document returned to the recipient is generally structured from the different sub-documents fetched, such as 
-            text, layout description, videos, images, scripts, and more  (Figure 2) [1].</p>
+            text, layout description, videos, images, scripts, and more  (Figure 2) <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">[1]</a>.</p>
         <img src="./img/f2.png" alt="">
         <p>HTTP functions as clients and servers meaning that when the client sends an HTTP message to the server, which is also called a request, the server will answer 
             that message, which is called response.</p>
         <p>HTTP is basically an application layer protocol designed within the internet protocol suite that is sent over Transmission Control Protocol (TCP). It's a reliable 
             transport layer protocol. Due to its extensibility, HTTP can be adapted to use unreliable protocols such as the User Datagram Protocol (UDP), for example in HTTPU (
                 HTTP over UDP) and SSDP (Simple Service Discovery Protocol).</p>
-        <p>HTTP has several features, however, as stated by [2], the 3 basic following features, which is being discussed, make HTTP being a simple but powerful protocol:</p>
+        <p>HTTP has several features, however, as stated by <a href="https://www.tutorialspoint.com/http/http_overview.htm">[2]</a>, the 3 basic following features, which is being discussed, make HTTP being a simple but powerful protocol:</p>
         <ul>
             <li> Connectionless: The first feature is the HTTP being connectionless. As mentioned above, the web browser (HTTP client) creates an HTTP request, sends it to the server, 
                 and waits for the response. After receiving the request, the server processes it and then sends a response back, after which the client disconnects the connection. Obviously, 
@@ -71,7 +71,7 @@
 
     <div id="content">
         <div class="contentheader">
-            <p><h5>2. What is HTTPs and how does it different from HTTP?</h5> </p>
+            <p><h5>2. What is HTTPs and how does it different from HTTP?<a href="https://www.dienmayxanh.com/kinh-nghiem-hay/giao-thuc-http-https-la-gi-co-gi-khac-nhau-nhung-d-1130277">[7]</a></h5> </p>
         </div>
         <p>HTTPS represents Hypertext Transfer Protocol Secure. Basically, it is the HTTP protocol that integrates a Secure Sockets Layer (SSL) Security Certificate or Transport Layer Security 
             (TLS) Certificate in order to encrypt exchanged information to increase security. It can be said that HTTPS is a safer and more secure version of HTTP.</p>
@@ -113,9 +113,9 @@
     </div>
     <div id="content">
         <div class="contentheader">
-            <p><h5>What are the parts of an HTTP Request? [5]</h5> </p>
+            <p><h5>What are the parts of an HTTP Request? <a href="https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-requests">[5]</a></h5> </p>
         </div>
-        <p>An HTTP request is defined in IBM Documentation [5] as a request made by a client, to a named host, which is located on a server. The aim of the request is to access a 
+        <p>An HTTP request is defined in IBM Documentation <a href="https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-requests">[5]</a> as a request made by a client, to a named host, which is located on a server. The aim of the request is to access a 
             resource on the server. To make the request, the client uses components of a Uniform Resource Locator (URL), which consists of the information needed to access the resource.</p>
         <p>A correctly composed HTTP request includes 3 parts containing a request line, a series of HTTP headers, or header fields, and a message body if needed.</p>   
         <ul>
@@ -156,9 +156,9 @@
     </div>
     <div id="content">
         <div class="contentheader">
-            <p><h5>What are the parts of an HTTP Response? [6]</h5> </p>
+            <p><h5>What are the parts of an HTTP Response? <a href="https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-responses">[6]</a></h5> </p>
         </div>
-        <p>Similarly, the HTTP Response is also defined in IBM Documentation [6] as a response made by a server to a client. The aim of the response is to provide the client with the resource it requested, 
+        <p>Similarly, the HTTP Response is also defined in IBM Documentation <a href="https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-responses">[6]</a> as a response made by a server to a client. The aim of the response is to provide the client with the resource it requested, 
             or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request.</p>
         <p>An HTTP response also contains three parts: a status line, a series of HTTP headers, or header fields, and a message body, which is usually needed. These parts of an HTTP Response are described 
             in more detail below.</p>
@@ -186,12 +186,12 @@
     </div>
     <div id="content">
         <div class="headercontent">
-            <p><h5>5. What are HTTP Headers and what is their role in client-server communication? [8, 9]</h5> </p>
+            <p><h5>5. What are HTTP Headers and what is their role in client-server communication? <a href="https://www.tutorialspoint.com/http/http_header_fields.htm">[8]</a><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">[9]</a></h5> </p>
         </div>
-        <p>As stated in the Learning HTTP Tutorial [8], the HTTP header provides required information about the request or response, or about the object sent in the message body. An HTTP header consists 
-            of its case-insensitive name followed by a colon (:), then by its value. Whitespace before the value is ignored [9].</p>
+        <p>As stated in the Learning HTTP Tutorial <a href="https://www.tutorialspoint.com/http/http_header_fields.htm">[8]</a>, the HTTP header provides required information about the request or response, or about the object sent in the message body. An HTTP header consists 
+            of its case-insensitive name followed by a colon (:), then by its value. Whitespace before the value is ignored <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">[9]</a>.</p>
         
-        <p>The HTTP message headers can be categorized based on distinct criteria such as context-wise based, how proxies handle them, etc. Here, four types of HTTP headers context-wise are listed according to [8]:</p>
+        <p>The HTTP message headers can be categorized based on distinct criteria such as context-wise based, how proxies handle them, etc. Here, four types of HTTP headers context-wise are listed according to <a href="https://www.tutorialspoint.com/http/http_header_fields.htm">[8]</a>:</p>
         <ul>
             <li>General-header: Can be applied for either request or response messages.</li>
             <li>Client Request-header: Only applied for request messages.</li>
