@@ -8,34 +8,38 @@ html, body{
 
 }
 
+/* #body{
+    width: 100%;
+    height: 100%;
+} */
 #header {
-    width: 100;
-    height: 80px;
+    width: 100%;
+    height: 100%;
 }
 
 #header .container {
     width: 100%;
     margin: 0px auto;
-    height: 80px;
+    height: 100%;
     
 
 }
 
 #header .container .logoup {
-    width: 350;
+    /* width: 200px; */
     float: left;
 }
 #header .container .logoup a{
     margin-top: 20px;
     margin-left: 150px;
     display: block;
-    line-height: 80px;
+    /* line-height: 80px; */
 }
 
 #header .container .nameheader{
     float: left;
     width: 490px;
-    height: 80px;
+    /* height: 80px; */
     margin-top: 60px;
     margin-left: 90px;
     /* margin: 0px;
@@ -44,7 +48,7 @@ html, body{
     /* line-height: 80px; */
 }
 
-#header .container .nameheader .nameup label{
+#header .container .nameheader .nameup h3{
     width: 100%;
     color: brown;
     display: block;
@@ -52,32 +56,12 @@ html, body{
 }
 
 #header .container .logoics {
-    width: 350;
     float: left;
     margin-right: 150px;
     margin-left: 40px;
     margin-top: 20px;
 }
 
-div.a {
-    text-align: center;
-    margin-top: 20px;
-}
-div.a.label{
-    margin-top: 10px;
-}
-  
-div.b {
-    text-align: left;
-}
-  
-  div.c {
-    text-align: right;
-  } 
-  
-  div.d {
-    text-align: justify;
-  } 
 
 #namearticle{
     text-align: center;
@@ -93,10 +77,9 @@ div.b {
     margin-top: 30px;
     line-height: 1.3;
 }
-#content .contentheader{
-    margin-top: 4px;
-
-
+#content h5{
+    margin-bottom: 6px;
+    font-size: 20px;
 
 }
 #content img {

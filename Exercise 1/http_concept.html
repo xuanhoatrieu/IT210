@@ -11,33 +11,30 @@
     <div id="header">
         <div class="container">
             <div class="logoup">
-                <a href="https://uplb.edu.ph/"><img src="./img/logo_up.png"></a>
+                <a href="https://uplb.edu.ph/"><img src="./img/logo_up.png" alt=""></a>
             </div>
             <div class="nameheader">
                 <div class=nameup>
-                    <label><h3>
-                        UNIVERSITY OF THE PHILIPPINES LOS BAÑOS</h3></label>
-                    <span> <h1>
-                        Institute of Computer Science</h1></span>
+                    <h3>UNIVERSITY OF THE PHILIPPINES LOS BAÑOS</h3>
+                    <h1>Institute of Computer Science</h1>
                     </div>
 
             </div>
             <div class="logoics">
-                <img src="./img/ics.png">
+                <img src="./img/ics.png" alt="">
             </div>
         </div>
 
     </div>
-    <hr width="100%"/>
+    <hr width="100%">
+
     <div id="namearticle">
         <h3>IT210 Web Application Development</h3>
         <H4>Exercise 1: Concepts of HTTP</H4>
     </div>
 
     <div id="content">
-        <div class="contentheader">
-            <p><h5>1. An overview of HTTP <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">[1]</a><a href="https://www.tutorialspoint.com/http/http_overview.htm">[2]</a> </h5> </p>
-        </div>
+        <h5>1. An overview of HTTP <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">[1]</a><a href="https://www.tutorialspoint.com/http/http_overview.htm">[2]</a> </h5>
         <p>HTTP stands for Hypertext Transfer Protocol, which is an application-level protocol for distributed, collaborative, hypermedia information systems developed 
             by Tim Berners-Lee and his team since 1990. This protocol is the foundation for data communication on the internet. A typical example of a very basic web 
             application architecture with HTTP protocol is shown in Figure 1.</p>
@@ -66,13 +63,10 @@
         </ul>
         <p>Note that in the connecting and exchanging information process, the browsers will automatically assume that the IP address comes from the server of the website that you want to visit 
             without any authentication measures. Moreover, the information that is sent via HTTP protocol (including IP address, information that you enter into the website, etc.) is also not 
-            encrypted and secure.</p>     
-    </div>
+            encrypted and secure.</p>  
+        
+        <h5>2. What is HTTPs and how does it different from HTTP?<a href="https://www.dienmayxanh.com/kinh-nghiem-hay/giao-thuc-http-https-la-gi-co-gi-khac-nhau-nhung-d-1130277">[7]</a></h5>
 
-    <div id="content">
-        <div class="contentheader">
-            <p><h5>2. What is HTTPs and how does it different from HTTP?<a href="https://www.dienmayxanh.com/kinh-nghiem-hay/giao-thuc-http-https-la-gi-co-gi-khac-nhau-nhung-d-1130277">[7]</a></h5> </p>
-        </div>
         <p>HTTPS represents Hypertext Transfer Protocol Secure. Basically, it is the HTTP protocol that integrates a Secure Sockets Layer (SSL) Security Certificate or Transport Layer Security 
             (TLS) Certificate in order to encrypt exchanged information to increase security. It can be said that HTTPS is a safer and more secure version of HTTP.</p>
         <p>SSL and TLS are currently the leading security standards for millions of websites all over the world. Both of them use an asymmetric Public Key Infrastructure (PKI) system that uses 
@@ -84,9 +78,11 @@
         <p>A comparison between HTTP and HTTPs is made as followed:</p>
         <table>
             <thead>
-                <th>Criteria</th>
-                <th>HTTP</th>
-                <th>HTTPs</th>
+                <tr>
+                    <th>Criteria</th>
+                    <th>HTTP</th>
+                    <th>HTTPs</th>
+                </tr>
             </thead>
             <tr>
                 <td data-label='Criteria'> Operating model </td>
@@ -110,11 +106,8 @@
                 </td>
             </tr>
         </table>
-    </div>
-    <div id="content">
-        <div class="contentheader">
-            <p><h5>What are the parts of an HTTP Request? <a href="https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-requests">[5]</a></h5> </p>
-        </div>
+        <h5>What are the parts of an HTTP Request? <a href="https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-requests">[5]</a></h5>
+
         <p>An HTTP request is defined in IBM Documentation <a href="https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-requests">[5]</a> as a request made by a client, to a named host, which is located on a server. The aim of the request is to access a 
             resource on the server. To make the request, the client uses components of a Uniform Resource Locator (URL), which consists of the information needed to access the resource.</p>
         <p>A correctly composed HTTP request includes 3 parts containing a request line, a series of HTTP headers, or header fields, and a message body if needed.</p>   
@@ -153,11 +146,7 @@
             <li>DELETE: Removes all the current representations of the target resource given by;</li>
             <li>PATCH: Apply for a partial revision of target resources.</li>
         </ul>
-    </div>
-    <div id="content">
-        <div class="contentheader">
-            <p><h5>What are the parts of an HTTP Response? <a href="https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-responses">[6]</a></h5> </p>
-        </div>
+        <h5>What are the parts of an HTTP Response? <a href="https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-responses">[6]</a></h5>
         <p>Similarly, the HTTP Response is also defined in IBM Documentation <a href="https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-responses">[6]</a> as a response made by a server to a client. The aim of the response is to provide the client with the resource it requested, 
             or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request.</p>
         <p>An HTTP response also contains three parts: a status line, a series of HTTP headers, or header fields, and a message body, which is usually needed. These parts of an HTTP Response are described 
@@ -183,11 +172,7 @@
             </li>
         </ul>
         <img src="./img/f5.png" alt="">
-    </div>
-    <div id="content">
-        <div class="headercontent">
-            <p><h5>5. What are HTTP Headers and what is their role in client-server communication? <a href="https://www.tutorialspoint.com/http/http_header_fields.htm">[8]</a><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">[9]</a></h5> </p>
-        </div>
+        <h5>5. What are HTTP Headers and what is their role in client-server communication? <a href="https://www.tutorialspoint.com/http/http_header_fields.htm">[8]</a><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">[9]</a></h5>
         <p>As stated in the Learning HTTP Tutorial <a href="https://www.tutorialspoint.com/http/http_header_fields.htm">[8]</a>, the HTTP header provides required information about the request or response, or about the object sent in the message body. An HTTP header consists 
             of its case-insensitive name followed by a colon (:), then by its value. Whitespace before the value is ignored <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">[9]</a>.</p>
         
@@ -199,25 +184,23 @@
             <li>Entity-header: Define meta-information about the entity-body or, if nobody is present, about the resource identified by the request.</li>
         </ul>
         <p>HTTP Headers play an important role in client-server communication by letting the client and the server pass additional information with an HTTP request or response. HTTP headers are mainly intended for the communication 
-            between the server and client in both directions.</p>
+            between the server and client in both directions.</p>        
+            <h5>6. What are HTTP Status Codes and what is their role in client-server communication? [10]</h5>
+            <p>The HTTP Status Code is an element in a status line of a server response. It includes a 3-digit integer where the first digit defines the class of response and the last two digits do not have any categorization role.</p>
+            <p>The first digit can be one of the following values:</p>
+            <ul>
+                <li>1xx (100, 101): Informational (meaning that the request has been received and the process is continuing: 100 Continue, 101 Switching Protocols).</li>
+                <li>2xx (200-206): Success (meaning that the action was successfully received, understood, and accepted: 200 OK, 201 Created, 202 Accepted, 203 Non-authoritative Information, 204 No Content, 205 Reset Content, 206 Partial Content).</li>
+                <li>3xx (300-307): Redirection (meaning that further action must be taken in order to complete the request: 300 Multiple Choices, 301 Moved Permanently, 302 Found, 303 See Other, 304 Not Modified, 305 Use Proxy, 306 Unused, 307 Temporary Redirect).</li>
+                <li>4xx (400-417): Client Error (meaning that the request contains incorrect syntax or cannot be fulfilled: 400 Bad Request, 401 Unauthorized, 402 Payment Required, 403 Forbidden, 404 Not Found, 405 Method Not Allowed, 406 Not Acceptable, 
+                    407 Proxy Authentication Required, 408 Request Timeout, 409 Conflict, 410 Gone, 411 Length Required, 412 Precondition Failed, 413 Request Entity Too Large, 414 Request-URL Too Long, 415 Unsupported Media Type, 416 Requested Range Not Satisfiable, 
+                    417 Expectation Failed).</li>
+                <li>5xx (500-505): Server Error (meaning that the server failed to fulfill an apparently valid request: 500 Internal Server Error, 500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable, 504 Gateway Timeout, 504 Gateway Timeout).</li>
+            </ul>
+            <p>Status codes are issued by a server in response to a client's request made to the server. They play the role to indicate whether a specific HTTP request has been successfully completed.</p>        
+
     </div>
-    <div id="content">
-        <div class="headercontent">
-            <p><h5>6. What are HTTP Status Codes and what is their role in client-server communication? [10]</h5> </p>
-        </div>
-         <p>The HTTP Status Code is an element in a status line of a server response. It includes a 3-digit integer where the first digit defines the class of response and the last two digits do not have any categorization role.</p>
-         <p>The first digit can be one of the following values:</p>
-         <ul>
-             <li>1xx (100, 101): Informational (meaning that the request has been received and the process is continuing: 100 Continue, 101 Switching Protocols).</li>
-             <li>2xx (200-206): Success (meaning that the action was successfully received, understood, and accepted: 200 OK, 201 Created, 202 Accepted, 203 Non-authoritative Information, 204 No Content, 205 Reset Content, 206 Partial Content).</li>
-             <li>3xx (300-307): Redirection (meaning that further action must be taken in order to complete the request: 300 Multiple Choices, 301 Moved Permanently, 302 Found, 303 See Other, 304 Not Modified, 305 Use Proxy, 306 Unused, 307 Temporary Redirect).</li>
-             <li>4xx (400-417): Client Error (meaning that the request contains incorrect syntax or cannot be fulfilled: 400 Bad Request, 401 Unauthorized, 402 Payment Required, 403 Forbidden, 404 Not Found, 405 Method Not Allowed, 406 Not Acceptable, 
-                 407 Proxy Authentication Required, 408 Request Timeout, 409 Conflict, 410 Gone, 411 Length Required, 412 Precondition Failed, 413 Request Entity Too Large, 414 Request-URL Too Long, 415 Unsupported Media Type, 416 Requested Range Not Satisfiable, 
-                 417 Expectation Failed).</li>
-             <li>5xx (500-505): Server Error (meaning that the server failed to fulfill an apparently valid request: 500 Internal Server Error, 500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable, 504 Gateway Timeout, 504 Gateway Timeout).</li>
-         </ul>
-         <p>Status codes are issued by a server in response to a client's request made to the server. They play the role to indicate whether a specific HTTP request has been successfully completed.</p>
-    </div>
+
     <div id="references">
         <h5>References:</h5>
         <ol>
